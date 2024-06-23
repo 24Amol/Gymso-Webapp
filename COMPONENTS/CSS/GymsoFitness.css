@@ -21,8 +21,12 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: black;
+    position: fixed;
+    z-index: 1;
 }
-
+header:active{
+    cursor: all-scroll;
+}
 #AppLogo{
     height: 60px;
     width: 22%;
